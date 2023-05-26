@@ -1,0 +1,38 @@
+{
+  "name": "gpt-tok",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iskandarreza/gpt-tok.git"
+  },
+  "description": "Lightweight trimmed down encoder/decoder/tokenizer/token counter for gpt3 that is compatible with both node and browser environments",
+  "main": "dist/index.js",
+  "keywords": [
+    "BPE",
+    "encoder",
+    "decoder",
+    "tokenizer",
+    "GPT",
+    "GPT-2",
+    "GPT-3",
+    "GPT-3.5",
+    "GPT-4",
+    "NLP",
+    "Natural Language Processing",
+    "Text Generation",
+    "OpenAI",
+    "Machine Learning",
+    "ml"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "Iskandar Reza",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
